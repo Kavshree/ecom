@@ -1,0 +1,57 @@
+{"products": [
+	{
+		"id": 1,
+		"title": "Almad",
+		"image": "images/1.jpg",
+		"price": 25,
+		"properties":[
+			{"one":"crispy","two":"crunchy","three":"all sizes","four":"all colours"}
+		]
+	},
+	{
+		"id": 2,
+		"title": "Lays Wavy",
+		"image": "images/2.jpg",
+		"price": 50,
+		"properties":[
+			{"one":"wavy","two":"chocolate flavour","three":"25% off","four":""}
+		]
+	},
+	{
+		"id": 3,
+		"title": "Lays pudina wrap",
+		"image": "images/3.jpg",
+		"price": 8,
+		"properties":[
+			{"one":"pure pudina","two":"no MFG","three":"no preservatives added","four":"fresh oil"}
+		]
+	},
+	{
+		"id": 4,
+		"title": "Lays Baked",
+		"image":"images/4.jpg",
+		"price": 8,
+		"properties":[
+			{"one":"0% cholostrol*","two":"no oil","three":"no fat","four":"purely baked"}
+		]
+	},
+	{
+		"id": 5,
+		"title": "Magnum chocolate",
+		"image": "images/5.jpg",
+		"price": 10,
+		"properties":[
+			{"one":"made of coca","two":"freshly made","three":"98% cocoa","four":"available in custom shape"}
+		]
+	},
+	{
+		"id": 6,
+		"title": "Crayon icecream",
+		"image": "images/6.jpg",
+		"price": 2,
+		"properties":[
+			{"one":"12 colors","two":"24 shades available","three":"low fat","four":"sugarless"}
+		]
+	}
+
+]}
