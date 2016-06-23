@@ -33,3 +33,11 @@ listApp.controller('listCtrl', ['$scope','$http', function(scope,http){
 		return total;
 	};
 }]);
+
+listApp.controller('detailsCtrl', ['$scope','$http','$routeParams', function(scope,http,routeParams){
+	scope.sayHi='hi';
+	http.get('products.json').success(function(response){
+		scope.products=response.products;
+		scope.whichItem=routeParams.itemId;
+	})
+}])
